@@ -17,5 +17,9 @@ for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
 # Display the output
+
+font = cv2.FONT_HERSHEY_COMPLEX
+cv2.putText(
+img, "naveen", (x, y), font, 1, (0, 0, 255), 1, lineType=cv2.LINE_AA)
 cv2.imshow('mahesh output', img)
 cv2.waitKey()
