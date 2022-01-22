@@ -13,7 +13,7 @@ plt.xlim(-15,15)
 plt.ylim(-15,15)
 plt.show()
 
-# import KMeans
+# import KMeans Hi to revert using git
 from sklearn.cluster import KMeans
 
 kmeans = KMeans(n_clusters=7)
