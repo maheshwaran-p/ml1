@@ -2,7 +2,7 @@
 from sklearn.datasets import make_blobs
 import numpy as np
 import matplotlib.pyplot as plt
-# create blobs
+# create blobs testing
 data = make_blobs(n_samples=250, n_features=5, centers=7, cluster_std=1.6, random_state=50)
 print(data)
 # create np array for data points
@@ -13,7 +13,7 @@ plt.xlim(-15,15)
 plt.ylim(-15,15)
 plt.show()
 
-# import KMeans Hi to revert using git
+# import KMeans Hi to revert using git testing
 from sklearn.cluster import KMeans
 
 kmeans = KMeans(n_clusters=7)
